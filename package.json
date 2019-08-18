@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build ./src/index.html",
+    "build": "parcel build ./src/index.html --no-minify",
     "start": "parcel ./src/index.html --open"
   },
   "dependencies": {
