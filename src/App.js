@@ -85,7 +85,7 @@ class App extends Component {
                 mode="strong"
                 onClick={() => this.mint("DAI")}
               >
-                Ask Aragon Rinkeby DAI
+                Request Aragon Rinkeby DAI
               </Button>
               <p>{DAI}</p>
             </div>
@@ -95,7 +95,7 @@ class App extends Component {
                 mode="strong"
                 onClick={() => this.mint("ANT")}
               >
-                Ask Aragon Rinkeby ANT
+                Request Aragon Rinkeby ANT
               </Button>
               <p>{ANT}</p>
             </div>
