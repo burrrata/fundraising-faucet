@@ -25,8 +25,8 @@ class App extends Component {
   }
 
   mint(token) {
-    const amount = BigNumber(200000000000000000000);
-    console.log("Requesting 200 " + token);
+    const amount = BigNumber(5000000000000000000000);
+    console.log("Requesting 5000 " + token);
 
     if (token === "DAI") {
       this.state.factory.mint(DAI, this.state.account, amount, {
